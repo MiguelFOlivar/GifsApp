@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { AddCategory } from "./components/AddCategory";
-import { GifGrid } from "./components/GifGrid";
+import { AddCategory, GifGrid} from './components';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export const GifApp =  () =>{
