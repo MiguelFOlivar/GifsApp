@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { AddCategory } from "./components/AddCategory";
 import { GifGrid } from "./components/GifGrid";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export const GifApp =  () =>{
 
@@ -12,22 +13,18 @@ export const GifApp =  () =>{
         setCategories([newCategory, ...categories]);
         //setCategories( cat => ['Valorant', ...categories ]);
     }
-    return(
-        <>
-        <h1>Gif Expert App</h1>
+    return (
+      <>
+          <h1>Gif Expert App</h1>
 
-        {/* Input */}
-        <AddCategory onNewCategory={ onAddCategory }/>
+          {/* Input */}
+          <AddCategory onNewCategory={onAddCategory} />
 
-        {/* Listado de Gifs */}
-        <ol>
-            {
-                categories.map( ( category ) => (
-                    <GifGrid key={ category } category={ category }/>
-                )
-)
-            }
-        </ol>
-        </>
+          {/* Listado de Gifs */}
+          {categories.map((category) => (
+            <GifGrid key={category} category={category} />
+          ))}
+          
+      </>
     );
 }
