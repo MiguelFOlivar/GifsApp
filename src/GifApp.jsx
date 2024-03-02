@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 export const GifApp =  () =>{
 
-    const [categories, setCategories] = useState(['One Punch']);
+    const [categories, setCategories] = useState(['Kimetsu']);
 
     const onAddCategory = ( newCategory ) => {
         if(categories.includes( newCategory )) return;
