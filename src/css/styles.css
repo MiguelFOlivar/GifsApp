@@ -2,9 +2,20 @@
   font-family: Helvetica, Arial, sans-serif;
   /* background-color: rgb(234, 234, 234); */
 }
-
+@font-face {
+  font-family: 'Mulish';
+  src: url(../fonts/Mulish-VariableFont_wght.ttf);
+}
 h1, h3 {
   text-align: center;
+  font-family: 'Mulish';
+font-weight: 700;
+}
+h1{
+  color: #000814;
+}
+h3 {
+  color: #353535;
 }
 
 body {

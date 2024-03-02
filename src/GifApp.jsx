@@ -14,7 +14,7 @@ export const GifApp =  () =>{
     }
     return (
       <>
-          <h1>Gif Expert App</h1>
+          <h1>Gifs Finder App</h1>
 
           {/* Input */}
           <AddCategory onNewCategory={onAddCategory} />
