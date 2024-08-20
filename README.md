@@ -1,8 +1,16 @@
-# React + Vite
+# Buscador de Gifs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Static Badge](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge) ![Static Badge](https://img.shields.io/badge/React-%2361DAFB?style=for-the-badge)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Esta aplicación permite realizar la busqueda de gifs de diferentes categorías
+
+![image](https://github.com/user-attachments/assets/c09e1ba3-1e51-45c4-9e28-2cbdd146e3d2)
+
+
+***Puedes usarla pulsando directamente el siguiente enlace, que te llevará a netlify, donde se encuentra alojado***
+
+<https://helpful-pixie-60def5.netlify.app/>
+
+
+
